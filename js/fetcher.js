@@ -5,18 +5,7 @@ fetch("../data/data.json").then(response => {
 }
 ).then(data => {
     data.repositories.forEach(repo => {
-        var yearSection = document.getElementById(repo.year + "-repos");
-
-        if (!yearSection) {
-            console.log("Creating new year section for " + repo.year);
-            yearSection = document.createElement("section");
-            yearSection.id = repo.year + "-repos";
-            yearSection.classList.add("year-section");
-            yearSection.innerHTML = `<h2>${repo.year}</h2>`;
-            console.log(yearSection);
-            document.getElementById("repos").appendChild(yearSection);
-        }
-        console.log(yearSection);
+        var yearSection = yearSectionOf(repo.year);
 
 
         repoNode = document.createElement("div");
@@ -33,3 +22,25 @@ fetch("../data/data.json").then(response => {
     console.log(err);
 }
 );
+
+function yearSectionOf(year) 
+{
+    var section = document.getElementById(year + "-repos");
+
+    if (!section) {
+        // Create a new section for the year
+        section = document.createElement("section");
+        section.id = year + "-repos";
+        section.classList.add("year-section");
+        section.innerHTML = `<h2>${year}</h2>`;
+        document.getElementById("repos").appendChild(section);
+
+        // Add a link to the year in the navigation
+        navAnchor = document.createElement("a");
+        navAnchor.href = "#" + year + "-repos";
+        navAnchor.innerText = year;
+        document.querySelector("nav").appendChild(navAnchor);
+    }
+
+    return section;
+}
