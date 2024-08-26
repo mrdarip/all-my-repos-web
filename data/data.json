@@ -1,25 +1,64 @@
 {
     "repositories": [
         {
-            "name": "repo1",
-            "url": "",
-            "description": "description1",
-            "image": "image1",
+            "name": "Fibonacci File Generator",
+            "url": "https://github.com/mrdarip/FibonacciFileGenerator",
+            "description": "A simple program that generates a file with the first n Fibonacci numbers.",
+            "image": "",
             "year": "2021",
             "tags": [
-                "tag1",
-                "tag2"
+                "cpp"
             ]
         },
         {
-            "name": "repo2",
-            "url": "",
-            "description": "description2",
+            "name": "Primes File Generator",
+            "url": "https://github.com/mrdarip/PrimesFileGenerator",
+            "description": "A simple program that generates a file with the first n prime numbers.",
             "image": "image2",
-            "year": "2022",
+            "year": "2021",
             "tags": [
-                "tag1",
-                "tag3"
+                "cpp"
+            ]
+        },
+        {
+            "name": "My Raylib Template",
+            "url": "https://github.com/mrdarip/my_raylib_template",
+            "description": "My template for raylib projects.",
+            "image": "",
+            "year": "2021",
+            "tags": [
+                "c"
+            ]
+        },
+        {
+            "name": "Github profile README",
+            "url":"https://github.com/mrdarip/mrdarip",
+            "description": "My github profile README.",
+            "image": "",
+            "year": "2021",
+            "tags": [
+                "Markdown"
+            ]
+        },
+        {
+            "name": "Order the kitchen Game",
+            "url": "https://github.com/mrdarip/order-the-kitchen-game",
+            "description": "A game dor the Sprig console where you have to order the kitchen.",
+            "image": "https://raw.githubusercontent.com/mrdarip/order-the-kitchen-game/main/thumbnail.png",
+            "year": "2024",
+            "tags": [
+                "JavaScript",
+                "Sprig"
+            ]
+        },
+        {
+            "name": "Fix for wardrobe",
+            "url": "https://github.com/mrdarip/Fix-for-wardrobe",
+            "description": "created for fixing a wardrobe who had some stoppers broken",
+            "image": "https://raw.githubusercontent.com/mrdarip/Fix-for-wardrobe/main/illustrations/printedPiece.jpg",
+            "year": "2024",
+            "tags": [
+                "OpenSCAD"
             ]
         }
     ]
