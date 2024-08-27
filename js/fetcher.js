@@ -4,9 +4,11 @@ fetch(githubify("../data/data.json")).then(response => {
     return response.json();
 }
 ).then(data => {
-    data.repositories.forEach(repo => {
+    data.repositories.sort((a, b) => {
+        return b.year - a.year;
+    })
+    .forEach(repo => {
         var yearSection = yearSectionOf(repo.year);
-
 
         repoNode = document.createElement("div");
         repoNode.classList.add("repo");
@@ -18,8 +20,7 @@ fetch(githubify("../data/data.json")).then(response => {
         `;
         yearSection.appendChild(repoNode);
     });
-}
-).catch(err => {
+}).catch(err => {
     console.log(err);
 }
 );
