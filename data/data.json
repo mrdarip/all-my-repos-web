@@ -32,7 +32,7 @@
         },
         {
             "name": "Github profile README",
-            "url":"https://github.com/mrdarip/mrdarip",
+            "url": "https://github.com/mrdarip/mrdarip",
             "description": "My github profile README.",
             "image": "",
             "year": "2021",
@@ -59,6 +59,128 @@
             "year": "2024",
             "tags": [
                 "OpenSCAD"
+            ]
+        },
+        {
+            "name": "Disassembling Epson Stylus SX-125",
+            "url": "https://github.com/mrdarip/Disassembling-Epson-Stylus-SX-125",
+            "description": "Disassembling some printers to get some parts guided by curiosity",
+            "image": "https://raw.githubusercontent.com/mrdarip/Disassembling-Epson-Stylus-SX-125/main/resources/IMG_20240726_222331.jpg",
+            "year": "2024",
+            "tags": [
+                "DIY"
+            ]
+        },
+        {
+            "name": "Chain generator",
+            "url": "https://github.com/mrdarip/openscad-chain-generator",
+            "description": "A chain generator made in OpenSCAD",
+            "image": "https://github.com/user-attachments/assets/6a52eb08-b636-46d7-994d-f39cc3c636d9",
+            "year": "2024",
+            "tags": [
+                "OpenSCAD"
+            ]
+        },
+        {
+            "name": "Art Displayer",
+            "url": "https://github.com/mrdarip/art-displayer",
+            "description": "A-frame project to display art in a 3D environment",
+            "image": "https://github.com/user-attachments/assets/5e1bdba6-e7c8-45b0-8a49-2febe07e3902",
+            "year": "2024",
+            "tags": [
+                "A-frame"
+            ]
+        },
+        {
+            "name": "Fridge Alphabet Generator",
+            "url": "https://github.com/mrdarip/fridge-alphabet-generator",
+            "description": "A generator for fridge magnets with letters",
+            "image": "https://github.com/user-attachments/assets/aa94b24d-d47e-4181-afb7-a81b0743f46e",
+            "year": "2024",
+            "tags": [
+                "OpenSCAD"
+            ]
+        },
+        {
+            "name": "Customisable Vase Maker",
+            "url": "https://github.com/mrdarip/customisable-vase-maker",
+            "description": "A vase generator made in OpenSCAD",
+            "image": "https://github.com/user-attachments/assets/6ce32a67-daeb-430e-a6f1-bed589ea6be1",
+            "year": "2024",
+            "tags": [
+                "OpenSCAD"
+            ]
+        },
+        {
+            "name": "Highly customisable box scad",
+            "url": "https://github.com/mrdarip/highly-customisable-box-scad",
+            "description": "A box generator made in OpenSCAD",
+            "image": "https://raw.githubusercontent.com/mrdarip/highly-customisable-box-scad/main/preview.jpg",
+            "year": "2024",
+            "tags": [
+                "OpenSCAD"
+            ]
+        },
+        {
+            "name": "Morse for Sprig",
+            "url": "https://github.com/mrdarip/morse-for-sprig",
+            "description": "A Morse code writer for the Sprig console",
+            "image": "https://raw.githubusercontent.com/mrdarip/morse-for-sprig/main/morseOnSprig.png",
+            "year": "2024",
+            "tags": [
+                "JavaScript",
+                "Sprig"
+            ]
+        },
+        {
+            "name": "Hack Club customs tracker",
+            "url": "https://github.com/mrdarip/Hack-Club-customs-tracker",
+            "description": "Made this project to facilitate knowing what fees each product has on each country",
+            "image": "https://github.com/user-attachments/assets/d82bc455-d891-409f-9f31-9dcefd8acb2a",
+            "year": "2024",
+            "tags": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ]
+        },
+        {
+            "name": "tasdks",
+            "url": "https://github.com/mrdarip/tasdks",
+            "description": "Don't ever forget any steps of a task, neither underestimate its duration. Add everything you want to have done, like sweeping th floor or playing the piano! The app will learn from you and distribute all your tasks for every day!",
+            "image": "https://github.com/user-attachments/assets/7ec6455c-e62b-4dbf-9967-c8f6bd8658a7",
+            "year": "2024",
+            "tags": [
+                "Kotlin"
+            ]
+        },
+        {
+            "name": "practising-js",
+            "url": "https://github.com/mrdarip/practising-js",
+            "description": "A project to practice JavaScript",
+            "image": "https://github.com/user-attachments/assets/3b177c0a-3277-4913-a074-75bec2986c52",
+            "year": "2024",
+            "tags": [
+                "JavaScript"
+            ]
+        },{
+            "name": "Stereoscopy on Blot",
+            "url": "https://github.com/mrdarip/Stereoscopy-on-blot",
+            "description": "Exercise to learn to use Blot and one of my first 3D rendering projects too!",
+            "image": "https://github.com/hackclub/blot/assets/61890952/647b0de3-39ab-4f42-a631-16203adb9b44",
+            "year": "2024",
+            "tags": [
+                "JavaScript"
+            ]
+        },
+        {
+            "name": "Blot writer",
+            "url": "https://github.com/mrdarip/blot-writer",
+            "description": "Write with your own font in blot",
+            "image": "https://raw.githubusercontent.com/mrdarip/blot-writer/main/snapshots/image.png",
+            "year": "2024",
+            "tags": [
+                "JavaScript"
             ]
         }
     ]
