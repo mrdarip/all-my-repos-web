@@ -15,15 +15,14 @@ fetch(githubify("../data/data.json")).then(response => {
         repoNode.innerHTML = `
         <h3>${repo.name}</h3>
         <p>${repo.description}</p>
-        <img src="${githubify(repo.image)}" alt="${repo.name}">
+        <img src="${githubify(repo.image)}" onerror="this.remove()">
         <a href="${repo.url}" target="_blank">View on GitHub</a>
         `;
         yearSection.appendChild(repoNode);
     });
 }).catch(err => {
     console.log(err);
-}
-);
+});
 
 function yearSectionOf(year) 
 {
