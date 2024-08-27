@@ -6,6 +6,11 @@
     --accent: #a98b9c;
 }
 
+*{
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     color: var(--text);
@@ -59,6 +64,24 @@ nav a:hover{
 
 .repo {
     border: 1px solid var(--primary);
-    border-width: 1px 0;
+    border-width: 0 0 1px 0;
+    padding-bottom: 1.5em;
     margin: 1em 0;
+}
+
+.repo h3{
+    margin: 0;
+    padding: 0;
+}
+
+.repo p{
+    margin: 0;
+    padding: 0.5em 0 1.5em 0;
+}
+
+.repo a{
+    color: var(--primary);
+    text-decoration: none;
+    padding: 0.5em;
+    border: 1px solid var(--primary);
 }
