@@ -85,3 +85,8 @@ nav a:hover{
     padding: 0.5em;
     border: 1px solid var(--primary);
 }
+
+.repo img{
+    float: right;
+    height: 100px;
+}

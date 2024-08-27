@@ -13,6 +13,7 @@ fetch(githubify("../data/data.json")).then(response => {
         repoNode.innerHTML = `
         <h3>${repo.name}</h3>
         <p>${repo.description}</p>
+        <img src="${githubify(repo.image)}" alt="${repo.name}">
         <a href="${repo.url}" target="_blank">View on GitHub</a>
         `;
         yearSection.appendChild(repoNode);
