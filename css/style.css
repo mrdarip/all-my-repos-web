@@ -1,0 +1,64 @@
+:root{
+    --text: #080609;
+    --background: #f6f4f7;
+    --primary: #877296;
+    --secondary: #bea8b9;
+    --accent: #a98b9c;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--text);
+    background-color: var(--background);
+    padding: 0;
+
+    width: 90%;
+    margin: auto;
+}
+
+h1{
+    color: var(--primary);
+}
+
+h3{
+    color: var(--text);
+}
+
+h4{
+    color: var(--secondary);
+}
+
+nav{
+    display: flex;
+    justify-content: left;
+    gap: 1rem;
+
+    padding: 1rem;
+    background-color: var(--secondary);
+   
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--text);
+}
+
+nav a:hover{
+    color: var(--accent);
+}
+
+.year-section h2{
+    background-color: var(--primary);
+    color: var(--background);
+    padding: 1rem;
+}
+
+.year-section{
+    margin: 3rem 0;
+}
+
+.repo {
+    border: 1px solid var(--primary);
+    border-width: 1px 0;
+    margin: 1em 0;
+}
