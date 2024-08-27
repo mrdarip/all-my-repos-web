@@ -1,6 +1,6 @@
 console.log('fetcher.js');
 
-fetch("../data/data.json").then(response => {
+fetch(githubify("../data/data.json")).then(response => {
     return response.json();
 }
 ).then(data => {
@@ -43,4 +43,9 @@ function yearSectionOf(year)
     }
 
     return section;
+}
+
+function githubify(src) 
+{
+    return window.location.hostname === "mrdarip.github.io"? src.replace("../", "./"): src;
 }
