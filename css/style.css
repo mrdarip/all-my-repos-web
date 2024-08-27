@@ -69,8 +69,8 @@ nav a:hover{
     margin: 1em 0;
 
     display: grid; 
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr; 
+    grid-template-columns: 3fr 1fr; 
+    grid-template-rows: min-content min-content min-content; 
     gap: 0px 0px; 
     grid-template-areas: 
     "repoh3 repoimg"
@@ -82,6 +82,8 @@ nav a:hover{
 
     float: right;
     height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 .repo a {
     grid-area: repoa;
@@ -90,6 +92,7 @@ nav a:hover{
     text-decoration: none;
     padding: 0.5em;
     border: 1px solid var(--primary);
+    width: fit-content;
 }
 .repo h3 {
     grid-area: repoh3;
