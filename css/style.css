@@ -67,26 +67,39 @@ nav a:hover{
     border-width: 0 0 1px 0;
     padding-bottom: 1.5em;
     margin: 1em 0;
-}
 
-.repo h3{
-    margin: 0;
-    padding: 0;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+    "repoh3 repoimg"
+    "repop repoimg"
+    "repoa repoimg"; 
 }
+.repo img {
+    grid-area: repoimg;
 
-.repo p{
-    margin: 0;
-    padding: 0.5em 0 1.5em 0;
+    float: right;
+    height: 100%;
 }
+.repo a {
+    grid-area: repoa;
 
-.repo a{
     color: var(--primary);
     text-decoration: none;
     padding: 0.5em;
     border: 1px solid var(--primary);
 }
+.repo h3 {
+    grid-area: repoh3;
 
-.repo img{
-    float: right;
-    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+.repo p {
+    grid-area: repop;
+
+    margin: 0;
+    padding: 0.5em 0 1.5em 0;
 }
